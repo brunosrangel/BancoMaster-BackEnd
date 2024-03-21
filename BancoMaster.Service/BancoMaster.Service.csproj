@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\BancoMaster.Core\BancoMaster.Core.csproj" />
+		<ProjectReference Include="..\BancoMaster.Db\BancoMaster.Db.csproj" />
+		<ProjectReference Include="..\BancoMaster.Domain\BancoMaster.Domain.csproj" />
+	</ItemGroup>
+
+</Project>
