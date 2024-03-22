@@ -121,7 +121,7 @@ namespace BancoMaster.Controllers
             {
                 var rotas = await _gerenciarRotas.CalculoRotaMaisBarata(consulta);
                 var srtMsg = $"Resposta: {rotas.trajeto} ao custo de ${rotas.CustoViagem}";
-                return Ok(srtMsg);
+                return Ok(new { mensagem = srtMsg });
             }
             catch (Exception ex)
             {

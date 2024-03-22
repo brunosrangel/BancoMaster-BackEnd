@@ -9,7 +9,7 @@ namespace BancoMaster.Core
         public async Task<RetornoCalculoModel> CriaRotaMaisBarata(ConsultaModel consulta, List<rotas> ListaDasRotas)
         {
             var matrixViagem = await criaMatrixComparacao(ListaDasRotas);
-            var trajeto = TrajetoMaisBarato(consulta.Origem, consulta.Destino, matrixViagem);
+            var trajeto = TrajetoMaisBarato(consulta.origem, consulta.destino, matrixViagem);
             var CustoViagem = SomarCustoRota(trajeto, matrixViagem);
             var CalculoFinal = new RetornoCalculoModel
             {

@@ -14,4 +14,8 @@
     <ProjectReference Include="..\BancoMaster.Domain\BancoMaster.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DbFile\" />
+  </ItemGroup>
+
 </Project>

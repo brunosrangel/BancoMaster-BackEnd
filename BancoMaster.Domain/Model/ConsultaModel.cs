@@ -8,7 +8,7 @@ namespace BancoMaster.Domain.Model
 {
     public class ConsultaModel
     {
-        public string Destino { get; set; }
-        public string Origem { get; set;}
+        public string destino { get; set; }
+        public string origem { get; set;}
     }
 }
